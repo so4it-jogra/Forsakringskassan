@@ -1,0 +1,6 @@
+= Forsakringskassan
+
+This is a prof-of-concept project implementing the Forsakringskassans Customer System ( KUND/GPI ) as a Gigaspace Party Space
+
+== Purpose
+. Presale

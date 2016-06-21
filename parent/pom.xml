@@ -1,0 +1,49 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>se.forsakringskassan.presale</groupId>
+  <artifactId>parent</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.so4it.sugar</groupId>
+        <artifactId>dependency-amazon-1.9.40</artifactId>
+        <version>1.0.4-SNAPSHOT</version>
+        <scope>import</scope>
+        <type>pom</type>
+      </dependency>
+      <dependency>
+        <groupId>com.so4it.sugar</groupId>
+        <artifactId>dependency-asciidoctorj-1.5.4</artifactId>
+        <version>1.0.4-SNAPSHOT</version>
+        <scope>import</scope>
+        <type>pom</type>
+      </dependency>
+      <dependency>
+        <groupId>com.so4it.sugar</groupId>
+        <artifactId>dependency-aspectj-1.8.2</artifactId>
+        <version>1.0.4-SNAPSHOT</version>
+        <scope>import</scope>
+        <type>pom</type>
+      </dependency>
+      <dependency>
+        <groupId>com.so4it.sugar</groupId>
+        <artifactId>dependency-cometd-3.0.4</artifactId>
+        <version>1.0.4-SNAPSHOT</version>
+        <scope>import</scope>
+        <type>pom</type>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+  <dependencies>
+    <dependency>
+      <groupId>com.amazonaws</groupId>
+      <artifactId>aws-java-sdk-s3</artifactId>
+      <version>1.9.40</version>
+    </dependency>
+  </dependencies>
+</project>
